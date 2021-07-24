@@ -5,6 +5,6 @@ const routes = Router();
 
 const authenticateUserController = new AuthenticateUserController();
 
-routes.post("/login", authenticateUserController.handle);
+routes.post("/auth", authenticateUserController.handle);
 
 export { routes };
